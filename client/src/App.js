@@ -17,9 +17,6 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Doner" element={<Doner />} />
           <Route path="/DonerList" element={<DonerList />} />
-          {/* If you want to include login and signup as part of the app navigation */}
-          <Route path="/login" element={<LoginComponent />} />
-          <Route path="/signup" element={<SignUpComponent />} />
         </Routes>
         <Footer />
       </div>
